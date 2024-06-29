@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Maven Pro', sans-serif;
+  color: #c0c4ce;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+  background: #292c34de;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 10rem;
+  background: #22242b;
+  border-radius: 999px;
+}
+
+.container {
+  max-width: 112.6rem;
+  margin-inline: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
